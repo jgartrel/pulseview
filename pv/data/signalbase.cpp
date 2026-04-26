@@ -56,7 +56,6 @@ const QColor SignalBase::AnalogSignalColors[8] =
 
 const QColor SignalBase::LogicSignalColors[10] =
 {
-	QColor(0x16, 0x19, 0x1A),	// Black
 	QColor(0x8F, 0x52, 0x02),	// Brown
 	QColor(0xCC, 0x00, 0x00),	// Red
 	QColor(0xF5, 0x79, 0x00),	// Orange
@@ -66,6 +65,7 @@ const QColor SignalBase::LogicSignalColors[10] =
 	QColor(0x75, 0x50, 0x7B),	// Violet
 	QColor(0x88, 0x8A, 0x85),	// Grey
 	QColor(0xEE, 0xEE, 0xEC),	// White
+	QColor(0x16, 0x19, 0x1A),	// Black
 };
 
 
