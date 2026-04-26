@@ -152,8 +152,7 @@ void GlobalSettings::set_defaults_where_needed()
 		2 * QFontMetrics(QApplication::font()).height());
 
 	if (!contains(Key_View_LogicColorOffset))
-		setValue(Key_View_LogicColorOffset,
-		2 * QFontMetrics(QApplication::font()).height());
+		setValue(Key_View_LogicColorOffset, 0);
 
 	if (!contains(Key_View_ShowHoverMarker))
 		setValue(Key_View_ShowHoverMarker, true);
